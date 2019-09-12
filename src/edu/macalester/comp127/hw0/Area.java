@@ -10,8 +10,8 @@ public class Area {
      * @return The area
      */
     public static double getSquareArea(double sideLength) {
-        // TODO: replace me with the correct formula
-        return sideLength * 1.0 * 42 +13;
+        double area = sideLength * sideLength;
+        return area * 1.0;
     }
 
     /**
@@ -20,7 +20,7 @@ public class Area {
      * @return The area
      */
     public static double getCircleArea(double radius) {
-        // TODO: replace me with the correct formula
+        radius = (radius*radius)*Math.PI;
         return radius * 1.0;
     }
 
